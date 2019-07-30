@@ -5,16 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-using A;
-
 namespace A
 {
-    class MyClass { int i; }
+    class MyClass {  }
 }
 
 namespace B
 {
-    class MyClass { double j; }
+    class MyClass {  }
 }
 
 namespace Basic
@@ -24,14 +22,15 @@ namespace Basic
         static void Main(string[] args)
         {
 
-            /*
-            A.MyClass objA = new MyClass();
+            
+            A.MyClass objA = new A.MyClass();
             B.MyClass objB = new B.MyClass();
+
 
             Console.WriteLine(objA.ToString());
             Console.WriteLine(objB.ToString());
 
-            System.Int32 num = 3;*/
+            //System.Int32 num = 3;
 
             int i = 1234;
             object box = i;
